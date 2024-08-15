@@ -49,3 +49,37 @@
   background-color: black;
   color: white;
 }
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.content .img img{
+  width: 850px;
+}
+
+.content .text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.content .text h1{
+  font-size: 50px;
+}
+
+.content .text p{
+  font-size: 25px;
+}
+
+.content .text button{
+  padding: 20px 50px;
+  width: 35%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
