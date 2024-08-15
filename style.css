@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header{
+.header {
   background-color: antiquewhite;
   padding: 10px 30px;
   display: flex;
@@ -12,55 +12,61 @@
   align-items: center;
 }
 
-.header .logo{
+.header .logo {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.header .logo .img img{
+.header .logo .img img {
   width: 100px;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.links .navLinks{
+.links .navLinks {
   display: flex;
   gap: 20px;
 }
 
-.links .navLinks a{
+.links .navLinks a {
   text-decoration: none;
   color: black;
 }
 
-.links .actionLinks button{
+.links .actionLinks button {
   padding: 10px 20px;
   border: 1px solid black;
   background-color: white;
   cursor: pointer;
 }
 
-#signUp{
+#signUp {
   background-color: black;
   color: white;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: space-between;
   padding: 30px;
 }
 
-.content .img img{
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.content .img img {
   width: 850px;
 }
 
-.content .text{
+.content .text {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -68,18 +74,31 @@
   justify-content: center;
 }
 
-.content .text h1{
+.content .text h1 {
   font-size: 50px;
 }
 
-.content .text p{
+.content .text p {
   font-size: 25px;
 }
 
-.content .text button{
+.content .text button {
   padding: 20px 50px;
   width: 35%;
   background-color: black;
   color: white;
   font-size: 20px;
+}
+
+.content2 .child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.content2 .child img {
+  width: 350px;
 }
