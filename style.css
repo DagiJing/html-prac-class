@@ -110,3 +110,22 @@
   border-radius: 50%;
 }
 
+.footer {
+
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: azure;
+}
+
+.footerlink .navLinks{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .footerlink .navLinks a{
+  text-decoration: none;
+  color: black;
+}
