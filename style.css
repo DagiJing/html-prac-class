@@ -90,15 +90,23 @@
   font-size: 20px;
 }
 
+.content2 {
+  gap: 10px;
+}
 .content2 .child {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
   width: 350px;
-  border: 1px solid black;
+  border: 1px solid antiquewhite;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .content2 .child img {
-  width: 350px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
+
